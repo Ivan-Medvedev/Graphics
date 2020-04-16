@@ -1,0 +1,2 @@
+D:\Projects\Graphics\x64\Debug\Graphics.exe
+D:\Projects\Graphics\x64\Debug\Graphics.pdb

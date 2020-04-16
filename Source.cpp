@@ -86,7 +86,7 @@ int main()
 
 	// load models
 	// -----------
-	Model ourModel("resources/nanosuit/nanosuit.obj");
+	Model ourModel("resources/Tank_M60A1_opt/tank_m60a1.gltf");
 
 	// draw in wireframe
 	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);

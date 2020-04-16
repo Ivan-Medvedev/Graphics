@@ -13,13 +13,14 @@ enum Camera_Movement {
 	BACKWARD,
 	LEFT,
 	RIGHT,
-	UP
+	UP,
+	DOWN
 };
 
 // Default camera values
 const float YAW = -90.0f;
 const float PITCH = 0.0f;
-const float SPEED = 1.5f;
+const float SPEED = 5.0f;
 const float SENSITIVITY = 0.06f;
 const float ZOOM = 45.0f;
 
@@ -80,7 +81,9 @@ public:
 		if (direction == RIGHT)
 			Position += Right * velocity;
 		if (direction == UP)
-			Position += Up * velocity;
+			Position += glm::vec3(0.0f, 1.0f, 0.0f) * velocity;
+		if (direction == DOWN)
+			Position += glm::vec3(0.0f, -1.0f, 0.0f) * velocity;
 	}
 
 	// Processes input received from a mouse input system. Expects the offset value in both the x and y direction.

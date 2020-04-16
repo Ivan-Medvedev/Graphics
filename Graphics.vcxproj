@@ -137,8 +137,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="4.cpp" />
     <ClCompile Include="glad.c" />
+    <ClCompile Include="HDR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -148,7 +148,14 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="4.5.framebuffers_screen_fragment.glsl" />
+    <None Include="bloom_final_fragment.glsl" />
+    <None Include="bloom_final_vertex.glsl" />
+    <None Include="bloom_fragment.glsl" />
+    <None Include="bloom_vertex.glsl" />
+    <None Include="blur_fragment.glsl" />
+    <None Include="blur_vertex.glsl" />
+    <None Include="light_box_fragment.glsl" />
+    <None Include="light_box_vertex.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,7 +18,7 @@
     <ClCompile Include="glad.c">
       <Filter>Файлы заголовков</Filter>
     </ClCompile>
-    <ClCompile Include="4.cpp">
+    <ClCompile Include="HDR.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -40,7 +40,28 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="4.5.framebuffers_screen_fragment.glsl">
+    <None Include="bloom_vertex.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="bloom_fragment.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="light_box_vertex.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="light_box_fragment.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="blur_vertex.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="blur_fragment.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="bloom_final_vertex.glsl">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="bloom_final_fragment.glsl">
       <Filter>Файлы ресурсов</Filter>
     </None>
   </ItemGroup>
